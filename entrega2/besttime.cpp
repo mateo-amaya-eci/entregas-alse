@@ -43,7 +43,7 @@ int main() {
     if (day + 1 == 1 ) {
         cout << "Día inválido. para poder vender el dia 1 primero se tienen que comprar acciones algun dia anterior, y no hay dia anterior" << endl;
         return 1;
-    }else if (day + 1 > 6 ||  day + 1 < 1){
+    }else if (day + 1 > 7 ||  day + 1 < 1){
         cout << "Día inválido. El rango de días es entre 1 y 7" << endl;
         return 1;
     }
