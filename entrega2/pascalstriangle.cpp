@@ -21,11 +21,12 @@ int main() {
     int filas;
     cout << "Ingrese el número de filas para el Triángulo de Pascal: ";
     cin >> filas;
-    vector<vector<int>> triangle = sol.generate(filas);
+vector<vector<int>> triangle = sol.generate(filas);
     cout << "Triángulo de Pascal con " << filas << " filas:" << endl;
     string c = "";
+    int espacio = filas;    
     for (int i=0; i<filas; i++) {
-        
+        c = c + string(espacio - i, ' ');
         for (int j=0 ; j < triangle[i].size() ; j++) {
             c= c + to_string(triangle[i][j]) + " ";
         }
