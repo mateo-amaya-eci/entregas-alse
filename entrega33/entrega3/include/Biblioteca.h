@@ -23,14 +23,11 @@ public:
     // Método para mostrar todos los libros disponibles en la biblioteca
     void mostrarLibrosDisponibles() const;
 
-    // Método para buscar un libro por su ISBN
-    // Devuelve un puntero al libro encontrado o nullptr si no existe
-    Libro* buscarLibroPorISBN(const std::string& ISBN);
 
     // Método para buscar un libro por su autor
     // Devuelve un puntero al libro encontrado o nullptr si no existe
     Libro* buscarporautor(const std::string& autor);
-    
+
     Libro* buscarLibroPorTitulo(const std::string& titulo);
 };
 

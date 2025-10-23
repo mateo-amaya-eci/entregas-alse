@@ -48,6 +48,11 @@ int main() {
                 cout << "Título a buscar: ";
                 cin.ignore();
                 getline(cin, titulo);
+
+                // Eliminar espacios adicionales al inicio y al final
+                titulo.erase(0, titulo.find_first_not_of(" "));
+                titulo.erase(titulo.find_last_not_of(" ") + 1);
+
                 Libro* libro = biblioteca.buscarLibroPorTitulo(titulo);
                 if (libro) {
                     cout << "Libro encontrado:\n";
@@ -62,6 +67,11 @@ int main() {
                 cout << "Autor a buscar: ";
                 cin.ignore();
                 getline(cin, autor);
+
+                // Eliminar espacios adicionales al inicio y al final
+                autor.erase(0, autor.find_first_not_of(" "));
+                autor.erase(autor.find_last_not_of(" ") + 1);
+
                 Libro* libro = biblioteca.buscarporautor(autor);
                 if (libro) {
                     cout << "Libro encontrado:\n";
