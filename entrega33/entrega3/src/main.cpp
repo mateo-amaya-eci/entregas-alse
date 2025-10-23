@@ -5,9 +5,18 @@ using namespace std;
 
 int main() {
     Biblioteca biblioteca;
+
+    // Agregar libros predeterminados
     biblioteca.agregarLibro(Libro("Cien Años de Soledad", "Gabriel García Márquez", "197-32"));
     biblioteca.agregarLibro(Libro("1984", "George Orwell", "198-84"));
     biblioteca.agregarLibro(Libro("Don Quijote de la Mancha", "Miguel de Cervantes", "1605-01"));
+    biblioteca.agregarLibro(Libro("El Principito", "Antoine de Saint-Exupéry", "1943-01"));
+    biblioteca.agregarLibro(Libro("Orgullo y Prejuicio", "Jane Austen", "1813-01"));
+    biblioteca.agregarLibro(Libro("Moby Dick", "Herman Melville", "1851-01"));
+    biblioteca.agregarLibro(Libro("La Divina Comedia", "Dante Alighieri", "1320-01"));
+    biblioteca.agregarLibro(Libro("Los Miserables", "Victor Hugo", "1862-01"));
+    biblioteca.agregarLibro(Libro("Crimen y Castigo", "Fyodor Dostoevsky", "1866-01"));
+    biblioteca.agregarLibro(Libro("El Hobbit", "J.R.R. Tolkien", "1937-01"));
 
     int opcion;
     do {
