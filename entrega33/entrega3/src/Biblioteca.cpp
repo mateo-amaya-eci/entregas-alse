@@ -25,7 +25,8 @@ void Biblioteca::mostrarLibrosDisponibles() const {
         }
     }
 }
-Libro* Biblioteca:: buscarLibroPorTitulo(const string& titulo) {
+
+Libro* Biblioteca::buscarLibroPorTitulo(const std::string& titulo) {
     for (auto& libro : libros) {
         if (libro.getTituplo() == titulo) {
             return &libro;
@@ -33,16 +34,8 @@ Libro* Biblioteca:: buscarLibroPorTitulo(const string& titulo) {
     }
     return nullptr;
 }
-Libro* Biblioteca::buscarLibroPorISBN(const std::string& titulo) {
-    for (auto& libro : libros) {
-        if (libro.getTitulo() == titulo) {
-            return &libro;
-        }
-    }
-    return nullptr;
-}
 
-Libro* buscarporautor(const string& autor) {
+Libro* Biblioteca::buscarporautor(const std::string& autor) {
     for (auto& libro : libros) {
         if (libro.getAutor() == autor) {
             return &libro;
