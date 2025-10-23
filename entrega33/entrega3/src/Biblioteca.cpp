@@ -28,7 +28,7 @@ void Biblioteca::mostrarLibrosDisponibles() const {
 
 Libro* Biblioteca::buscarLibroPorTitulo(const std::string& titulo) {
     for (auto& libro : libros) {
-        if (libro.getTituplo() == titulo) {
+        if (libro.getTituplo() == titulo) { // Comparación exacta
             return &libro;
         }
     }
@@ -37,7 +37,7 @@ Libro* Biblioteca::buscarLibroPorTitulo(const std::string& titulo) {
 
 Libro* Biblioteca::buscarporautor(const std::string& autor) {
     for (auto& libro : libros) {
-        if (libro.getAutor() == autor) {
+        if (libro.getAutor() == autor) { // Comparación exacta
             return &libro;
         }
     }
