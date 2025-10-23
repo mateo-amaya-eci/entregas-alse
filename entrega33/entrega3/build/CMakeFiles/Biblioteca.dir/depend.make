@@ -8,7 +8,6 @@ CMakeFiles/Biblioteca.dir/src/Biblioteca.cpp.o: ../src/Biblioteca.cpp
 CMakeFiles/Biblioteca.dir/src/Libro.cpp.o: ../include/Libro.h
 CMakeFiles/Biblioteca.dir/src/Libro.cpp.o: ../src/Libro.cpp
 
-
 CMakeFiles/Biblioteca.dir/src/main.cpp.o: ../include/Biblioteca.h
 CMakeFiles/Biblioteca.dir/src/main.cpp.o: ../include/Libro.h
 CMakeFiles/Biblioteca.dir/src/main.cpp.o: ../src/main.cpp

@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/Biblioteca.cpp" "/home/mateo_amaya/alse/entregas/entrega33/entrega3/build/CMakeFiles/Biblioteca.dir/src/Biblioteca.cpp.o"
   "/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/Libro.cpp" "/home/mateo_amaya/alse/entregas/entrega33/entrega3/build/CMakeFiles/Biblioteca.dir/src/Libro.cpp.o"
-  "/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/Usuario.cpp" "/home/mateo_amaya/alse/entregas/entrega33/entrega3/build/CMakeFiles/Biblioteca.dir/src/Usuario.cpp.o"
   "/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/main.cpp" "/home/mateo_amaya/alse/entregas/entrega33/entrega3/build/CMakeFiles/Biblioteca.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

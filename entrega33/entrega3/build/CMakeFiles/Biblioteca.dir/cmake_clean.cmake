@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "Biblioteca.pdb"
   "CMakeFiles/Biblioteca.dir/src/Biblioteca.cpp.o"
   "CMakeFiles/Biblioteca.dir/src/Libro.cpp.o"
-  "CMakeFiles/Biblioteca.dir/src/Usuario.cpp.o"
   "CMakeFiles/Biblioteca.dir/src/main.cpp.o"
 )
 

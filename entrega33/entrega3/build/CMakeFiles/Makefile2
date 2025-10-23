@@ -74,12 +74,12 @@ clean: CMakeFiles/Biblioteca.dir/clean
 CMakeFiles/Biblioteca.dir/all:
 	$(MAKE) -f CMakeFiles/Biblioteca.dir/build.make CMakeFiles/Biblioteca.dir/depend
 	$(MAKE) -f CMakeFiles/Biblioteca.dir/build.make CMakeFiles/Biblioteca.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mateo_amaya/alse/entregas/entrega33/entrega3/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Biblioteca"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mateo_amaya/alse/entregas/entrega33/entrega3/build/CMakeFiles --progress-num=1,2,3,4 "Built target Biblioteca"
 .PHONY : CMakeFiles/Biblioteca.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Biblioteca.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateo_amaya/alse/entregas/entrega33/entrega3/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateo_amaya/alse/entregas/entrega33/entrega3/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Biblioteca.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateo_amaya/alse/entregas/entrega33/entrega3/build/CMakeFiles 0
 .PHONY : CMakeFiles/Biblioteca.dir/rule

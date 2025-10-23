@@ -30,6 +30,8 @@ public:
     // Método para buscar un libro por su autor
     // Devuelve un puntero al libro encontrado o nullptr si no existe
     Libro* buscarporautor(const std::string& autor);
+    
+    Libro* buscarLibroPorTitulo(const std::string& titulo);
 };
 
 #endif // BiBLOTECA_h
