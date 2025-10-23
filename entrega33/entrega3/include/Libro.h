@@ -17,12 +17,6 @@ class Libro {
 public:
     // Constructor: Inicializa un objeto Libro con título, autor e ISBN
     Libro(const std::string& titulo, const std::string& autor, const std::string& ISBN);
-    Libro(const std::string& titulo,const std::string& ISBN){
-        this->titulo=titulo;
-        this->ISBN=ISBN;
-        this->autor="anonimo";
-        this->disponible=true;
-    }
 
     // Métodos para obtener información del libro
     std::string getTitulo() const;  // Devuelve el título del libro

@@ -14,8 +14,7 @@ include_directories(include)            # Especifica el directorio "include" par
 # Archivos fuente
 set(SOURCES                             # Define una lista de archivos fuente que forman parte del proyecto
     src/Libro.cpp                       # Archivo fuente para la clase "Libro"
-    src/Biblioteca.cpp                  # Archivo fuente para la clase "Biblioteca"
-    src/Usuario.cpp                     # Archivo fuente para la clase "Usuario"
+    src/Biblioteca.cpp                  # Archivo fuente para la clase "Biblioteca
     src/main.cpp                        # Archivo fuente principal (punto de entrada del programa)
 )
 

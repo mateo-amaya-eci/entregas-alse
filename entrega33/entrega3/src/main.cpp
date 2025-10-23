@@ -1,6 +1,6 @@
 #include "Biblioteca.h"
 #include <iostream>
-#include "Usuario.h"
+#include "Libro.h"
 using namespace std;
 int main(){
     Biblioteca biblioteca;
@@ -17,7 +17,7 @@ int main(){
         cout << "4.Buscar por titulo\n";
         cout << "5.Buscar por autor\n";
         cout << "0.Salir\n";
-        cout << opcion;
+        cin >> opcion;
         switch(opcion){
             case 1:
                 biblioteca.mostrarLibrosDisponibles();
@@ -36,14 +36,14 @@ int main(){
             case 3:{
                 string ISBN;
                 cout << "ISBN del libro a eliminar: ";
-                getline(cin, ISBN);
+                cin >> ISBN;
                 biblioteca.eliminarLibro(ISBN);
                 break;
             }
             case 4: {
                 string titulo;
                 cout << "Título a buscar: ";
-                getline(cin,titulo);
+                cin>>titulo;
                 Libro* libro = biblioteca.buscarLibroPorISBN(titulo);
                 if (libro) {
                     cout<<"libro encontrado:\n";
@@ -56,7 +56,7 @@ int main(){
             case 5: {
                 string autor;
                 cout << "Autor a buscar: ";
-                getline(cin,autor);
+                cin>>autor;
                 Libro* libro = biblioteca.buscarporautor(autor);
                 if (libro) {
                     cout<<"libro encontrado:\n";

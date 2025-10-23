@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Biblioteca.h
+Libro.h
+../include/Libro.h
+vector
+-
+
+../include/Libro.h
+string
+-
+
+/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/Biblioteca.cpp
+Biblioteca.h
+/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/Biblioteca.h
+iostream
+-
+
+/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/Libro.cpp
+Libro.h
+/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/Libro.h
+iostream
+-
+
+/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/main.cpp
+Biblioteca.h
+/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/Biblioteca.h
+iostream
+-
+Libro.h
+/home/mateo_amaya/alse/entregas/entrega33/entrega3/src/Libro.h
+
